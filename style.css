@@ -1,0 +1,20 @@
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+.img {
+    width: 250px;
+    height: auto;
+}
+
+h1.title {
+    color: blue;
+    font-size: 55px;
+}
