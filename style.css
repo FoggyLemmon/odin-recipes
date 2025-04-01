@@ -15,6 +15,52 @@ p {
 }
 
 h1.title {
-    color: blue;
     font-size: 55px;
+}
+
+.button {
+    background-color: rgb(135, 3, 3);
+    color: whitesmoke;
+    height: 28px;
+    width: 72px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+
+.button.save,
+.button.print {
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+
+.button.save:hover,
+.button.print:hover {
+    opacity: 0.76;
+}
+
+.button.save:active,
+.button.print:active {
+    opacity: 0.48;
+}
+
+.button.rate {
+    margin-right: 8px;
+    transition: background-color 1s, color 1s;
+}
+
+.button.rate:hover {
+    color: rgb(135, 3, 3);
+    background-color: whitesmoke;
+}
+
+.button.print {
+    transition: box-shadow 0.3s,
+}
+
+.button.share:hover {
+    box-shadow: 6px 5px 6px rgb(135, 3, 3, 0.2);
 }
