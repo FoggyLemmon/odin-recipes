@@ -1,7 +1,18 @@
+h1 {
+    display: inline-block;
+}
+
+.search-bar {
+    margin: 25px;
+    border-radius: 4px;
+}
+
 .title {
     font-family: 'Courier prime', monospace;
     font-weight: 700;
     font-style: normal;
+    display: block;
+
 }
 
 p {
