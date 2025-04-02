@@ -10,8 +10,9 @@ p {
 }
 
 .img {
-    width: 250px;
+    width: 350px;
     height: auto;
+    margin: auto 10px;
 }
 
 h1.title {
@@ -21,34 +22,29 @@ h1.title {
 .button {
     background-color: rgb(135, 3, 3);
     color: whitesmoke;
-    height: 28px;
-    width: 72px;
     font-size: 16px;
+    padding: 8px 14px;
+    margin: 5px 10px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: opacity 1s;
+
 }
 
-.button.save,
-.button.print {
-    margin-right: 8px;
+.button.save {
     transition: opacity 0.15s;
 }
 
-.button.save:hover,
-.button.print:hover {
+.button.save:hover {
     opacity: 0.76;
 }
 
-.button.save:active,
-.button.print:active {
+.button.save:active {
     opacity: 0.48;
 }
 
 .button.rate {
-    margin-right: 8px;
     transition: background-color 1s, color 1s;
 }
 
@@ -57,8 +53,8 @@ h1.title {
     background-color: whitesmoke;
 }
 
-.button.print {
-    transition: box-shadow 0.3s,
+.button.print:hover {
+    transform: scale(1.3);
 }
 
 .button.share:hover {
