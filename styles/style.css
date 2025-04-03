@@ -1,11 +1,4 @@
-h1 {
-    display: inline-block;
-}
-
-.search-bar {
-    margin: 25px;
-    border-radius: 4px;
-}
+h1 {}
 
 .main-title {
     font-family: 'Courier prime', monospace;
