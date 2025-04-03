@@ -1,26 +1,21 @@
 h1 {}
 
+p {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
 .main-title {
     font-family: 'Courier prime', monospace;
     font-weight: 700;
     font-style: normal;
     display: block;
-
-}
-
-p {
-    font-family: Arial, sans-serif;
-    font-weight: normal;
 }
 
 .img {
     width: 500px;
     height: auto;
     margin: auto 10px;
-}
-
-h1.title {
-    font-size: 35px;
 }
 
 .button {
