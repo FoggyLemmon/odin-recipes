@@ -78,24 +78,17 @@ h1.title {
 }
 
 .nutri-facts-lists {
-    display: inline-block;
-}
-
-.calories,
-.fat,
-.carbs,
-.protein {
-    display: inline-block;
-    margin-right: 55px;
+    display: grid;
+    grid-template-columns: 140px 140px 140px 140px;
+    column-gap: 30px;
 }
 
 .nutri-number {
-    margin-top: 10px;
     margin-bottom: 0;
     font-weight: 700;
 }
 
 .nutri-name {
-    margin-top: 5px;
-    color: rgba(0, 0, 0, 0.95);
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.65);
 }
